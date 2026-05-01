@@ -8,13 +8,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>QR Code Generator</h1>
+    <div class="container-qr">
+        <h1 id="head-qr">QR Code Generator</h1>
         <p>Enter text or url to generate your QR Code</p>
         <input type="text" id="qr-input" placeholder="https://welcome.com">
         <button id="generate-btn">Generate QR Code</button>
         <div id="qr-code"></div>
+        <button id="download-btn">Download QR</button>
     </div>
+    
+    <div class="container-shortner">
+        <h1>Link Shortner</h1>
+        <p>Paste the linkor URL to be shorten</p>
+            <input type="url" id="url-input" placeholder="https://welcome.com">
+            <button id="shorten-btn">Shorten URL</button>
+    </div>
+
+    <div id="modal-overlay" class="overlay">
+    <div class="result-container">
+        <div class="rc-head">
+            <h2>Link shortened!</h2> 
+            <button id="cut-btn">X</button>
+        </div>
+        <div class="rc-display">
+        <form>
+            <p>Your shortened link:</p>
+            <input type="url" id="result-link">
+        </form>
+        </div>
+        <button id="result-btn" >Copy Link</button>
+    </div>
+    </div>
+
     <script src="script.js"></script>
   
 </body>
