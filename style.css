@@ -12,35 +12,39 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: aliceblue;
-    gap: 50px;
-    padding: 80px;
+    gap: 30px;
+    padding: 20px;
 }
 .container-qr {
     background: white;
-    padding: 30px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     max-width: 450px;
-    width: 90%;
-    white-space: nowrap;
+    width: 100%;
+    white-space: normal;
 }
 
 #qr-input {
-    padding: 10px;
-    width: 250px;
+    padding: 12px;
+    width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 #generate-btn {
-    padding: 10px 20px;
+    padding: 12px 20px;
+    width: 100%;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 #generate-btn:hover {
@@ -80,20 +84,24 @@ body {
 }
 
 #url-input {
-    padding: 10px;
-    width: 250px;
+    padding: 12px;
+    width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
+    font-size: 16px;
 }
 
 #shorten-btn {
-    padding: 10px 20px;
+    padding: 12px 20px;
+    width: 100%;
     background-color: #007bff;
     color: white;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: bolder;
 }
 
 #shorten-btn:hover {
