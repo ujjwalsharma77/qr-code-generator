@@ -17,8 +17,10 @@ generateBtn.addEventListener("click", () => {
         
         setTimeout (() => {
             const qrImg = qrContainer.querySelector("img");
+            const qrImg = qrContainer.querySelector("img");
+
             if (qrImg && qrImg.src) {
-                downloadBtn.style.display = "inline-block";
+                downloadBtn.style.display = "block";
             }
         }, 300);
 
