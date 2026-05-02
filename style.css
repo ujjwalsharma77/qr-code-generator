@@ -62,12 +62,14 @@ body {
     background-color: #28a745;;
     color: white;
     align-items: center;
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
     border-radius: 8px;
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
     width: fit-content;
+    max-width: 250px;
     font-weight: bolder;
+    text-align: center;
 }
 #download-btn:hover {
     background-color: #218838;
