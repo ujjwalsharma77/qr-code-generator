@@ -17,7 +17,7 @@ generateBtn.addEventListener("click", () => {
         
         setTimeout (() => {
             const qrImg = qrContainer.querySelector("img");
-            const canvas = qrContainer.querySelector("canvas");
+            const qrcanvas = qrContainer.querySelector("canvas");
 
             if (qrImg && qrImg.src) {
                 downloadBtn.style.display = "block";
